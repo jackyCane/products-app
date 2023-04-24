@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply rounded-full py-2 px-3 bg-black hover:bg-slate-600 transition-all duration-300 text-white;
+}
